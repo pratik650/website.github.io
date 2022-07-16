@@ -1,0 +1,61 @@
+
+#Mybtn {
+    border-radius: 20px;
+    border-color: currentColor;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+body{
+   background-color: lightblue; 
+}
+
+#image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+}
+#Background{
+    margin: 0;
+    padding: 0;
+}
+
+#Paragraph{
+    visibility: hidden;
+    position: absolute;
+    top:17rem;
+    left:24rem;
+    right:2rem;
+   
+}
+#Finaldiv{
+    visibility: hidden;
+    rotate: 20px;
+    position: absolute;
+    top:38rem;
+    left:33rem;
+    transition-delay:90s;
+}
+#Mybtn:hover{
+    color:red;
+}
+#H5{
+     
+    border-style: inset;
+    border-radius: 12px;
+    text-align: center;
+    border-color:black;
+    
+}
+  
+#Finaldiv:hover {
+  
+  }
